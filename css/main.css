@@ -98,6 +98,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* -------------- Wrapped Content -----------------*/
+
+header, header nav, header ul, .content-wrapper,
+.form-info, .form, .features-items, .hero-area,
+address, .social, .social-icons, footer,
+.lacrue, .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+header nav ul {
+  justify-content: space-around;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -263,4 +281,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-

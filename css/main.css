@@ -230,9 +230,7 @@ aside .content-wrapper {
 
 aside h3, aside p, input {
   border: 1px solid blue;
-  height: inherit;
   width: 100%;
-  margin: 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -240,6 +238,7 @@ aside h3, aside p, input {
 }
 
 .form {
+  margin-top: 40px;
   width: 100%;
   display: flex;
   justify-content: center;

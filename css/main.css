@@ -200,6 +200,8 @@ main {
 }
 
 aside {
+  color: white;
+  background-color: #527158;
   border: 1px solid red;
   height: 330px;
   margin: 0;
@@ -211,12 +213,12 @@ aside {
 }
 
 .form-info {
-  height: 50px;
+  height: inherit;
   margin: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: cernter;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -229,25 +231,51 @@ aside .content-wrapper {
 }
 
 aside h3, aside p, input {
-  border: 1px solid blue;
+  margin: 0;
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
-.form {
-  margin-top: 40px;
+.retreat h3 {
+  padding-top: 35px;
+}
+
+.retreat p {
+  padding-top: 20px;
+}
+
+.form h3 {
+  padding: 40px 0 0;
+}
+
+.form input {
+  margin-top: 15px;
+  height: 35px;
+}
+
+.form, .retreat {
+  margin: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
+
+.retreat {
+  height: 130px;
+}
+
+.form {
+  height: 200px;
 }
 
 .features {
   border: 1px solid black;
+  width: 100%;
   height: 1451px;
   margin: 0;
   display: flex;
@@ -256,21 +284,56 @@ aside h3, aside p, input {
   flex-flow: row wrap;
 }
 
-.features h2 {
+.features .content-wrapper {
+  height: inherit;
   margin: 0;
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.features h2 {
+  padding-top: 60px;
+  width: 100%;
+  height: 125px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.features-items {
+  height: 1265px;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+.fontawesome-icon, .features-item-description {
+  margin: 0;
+  width: 45%;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.features-items, .features article, .features p {
+
+.features article {
   margin: 0;
   width: 100%;
+  height: ;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
 
 .reviews {

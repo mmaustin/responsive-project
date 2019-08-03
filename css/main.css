@@ -98,338 +98,508 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+   body {
+     color: white;
+     background-color: #527158;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
 
-.content-wrapper {
-  height: inherit;
-  width: 90%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+   .content-wrapper {
+     height: inherit;
+     width: 90%;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
 
-/* ------------------ Header ------------------*/
+   /* ------------------ Header ------------------*/
 
-header {
-  border: 1px solid blue;
-  height: 120px;
-  width: 100%;
-  display: flex;
-  justify-content;
-  align-items: center;
-  flex-flow: row wrap;
-}
+   header {
+     background-color: black;
+     height: 120px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
 
-header .content-wrapper {
-  width: 100%;
-}
+   header .content-wrapper {
+     width: 100%;
+   }
 
-.picture, .picture .class {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+   .picture, .picture .class {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
 
-nav, .header-divider {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+   nav, .header-divider {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
 
-.header-divider {
-  background-color: gray;
-  height: 1px;
-}
+   .header-divider {
+     margin-top: 30px;
+     background-color: gray;
+     height: 1px;
+   }
 
-nav ul {
-  width: 60%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;
-  list-style: none;
-}
+   nav ul {
+     width: 60%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-flow: row wrap;
+     list-style: none;
+   }
 
-nav ul li a {
-  text-decoration: none;
-}
+   nav ul li a {
+     text-decoration: none;
+   }
 
-/* ---------------- Main --------------- */
+   /* ---------------- Main --------------- */
 
-main {
-  height: 2890px;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+   main {
+     height: 2890px;
+     margin: 0;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
 
-.hero-area {
-  border: 1px solid yellow;
-  height: 501px;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+   .hero-area {
+     height: 501px;
+     margin: 0;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
 
-.hero-area h1 {
-  border: 1px solid red;
-  height: inherit;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-flow: row wrap;
-}
+   .hero-area .content-wrapper {
+     width: 90%;
+     height: inherit;
+     margin: 0;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     flex-flow: row wrap;
+   }
 
-aside {
+   .hero-area h1 {
+     height: 200px;
+     margin-top: 50px;
+     width: 100%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     flex-flow: row wrap;
+   }
+
+   aside {
+     height: 330px;
+     margin: 0;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   .form-info {
+     height: inherit;
+     margin: 0;
+     width: 100%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     flex-flow: row wrap;
+   }
+
+   aside .content-wrapper {
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     flex-flow: row wrap;
+   }
+
+   aside h3, aside p, input {
+     margin: 0;
+     width: 100%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     flex-flow: row wrap;
+   }
+
+   .retreat h3 {
+     padding-top: 35px;
+   }
+
+   .retreat p {
+     padding-top: 20px;
+   }
+
+   .form h3 {
+     padding: 40px 0 0;
+   }
+
+   .form input {
+     margin-top: 15px;
+     height: 35px;
+   }
+
+   .form, .retreat {
+     margin: 0;
+     width: 100%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     flex-flow: column wrap;
+   }
+
+   .retreat {
+     height: 130px;
+   }
+
+   .form {
+     height: 200px;
+   }
+
+   .features {
+     width: 100%;
+     height: 1455px;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   .features .content-wrapper {
+     height: inherit;
+     margin: 0;
+     width: 90%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     flex-flow: column wrap;
+   }
+
+   .features h2 {
+     padding-top: 60px;
+     width: 100%;
+     height: 125px;
+     margin: 0;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     flex-flow: row wrap;
+   }
+
+   .features-items {
+     height: 1266px;
+     margin: 0;
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-start;
+     flex-flow: column wrap;
+   }
+
+   .fontawesome-icon, .features-item-description {
+     margin: 0;
+     width: 45%;
+     height: 70px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+
+   .features article {
+     margin: 0;
+     width: 100%;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column wrap;
+   }
+
+   .reviews {
+     height: 598px;
+     margin: 0;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   .reviews .content-wrapper {
+     height: inherit;
+     margin: 0;
+     width: 90%;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     flex-flow: row wrap;
+   }
+
+   .reviews h2 {
+     padding-top: 50px;
+     height: 50px;
+   }
+
+   .reviews h2, .reviews h3, .reviews p, .team-pic {
+     width: 100%;
+     margin: 0;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     flex-flow: row wrap;
+   }
+
+   .team-pic {
+     height: 250px;
+   }
+
+   .reviews article {
+     margin: 0;
+     width: 100%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     flex-flow: row wrap;
+   }
+
+   .lacrue {
+     margin-top: 20px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   /* ---------------- Footer --------------- */
+
+   footer {
+     background-color: black;
+     height: 175px;
+     width: 100%;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   .phone, .email {
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   .footer-content {
+     width: 100%;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column wrap;
+   }
+
+   .contact, .social, .social-icons {
+     margin: 0;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column wrap;
+   }
+
+   .social-icons {
+     margin: 0;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+   .copyright, .copyright p {
+     background-color: black;
+     width: 100%;
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
+/*------------About CSS--------------*/
+.body-about {
   color: white;
   background-color: #527158;
-  border: 1px solid red;
-  height: 330px;
-  margin: 0;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.form-info {
-  height: inherit;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-flow: row wrap;
+.main-about, .mission, .information, .mission-info,
+.map {
+width: 100%;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
 }
 
-aside .content-wrapper {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-flow: row wrap;
+.mission .content-wrapper, .information .content-wrapper {
+height: inherit;
+width: 90%;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-flow: row wrap;
 }
 
-aside h3, aside p, input {
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-flow: row wrap;
+.map .content-wrapper {
+height: inherit;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
 }
 
-.retreat h3 {
-  padding-top: 35px;
+.motivation, .motivation p {
+margin: 0;
+width: 100%;
+height: 90px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-flow: row wrap;
 }
 
-.retreat p {
-  padding-top: 20px;
+.mission-info {
+margin: 0;
+width: 100%;
+height: 180px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-flow: row wrap;
 }
 
-.form h3 {
-  padding: 40px 0 0;
+.mission h2 {
+padding-top: 50px;
+margin: 0;
+width: 100%;
+height: 70px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-flow: row wrap;
 }
 
-.form input {
-  margin-top: 15px;
-  height: 35px;
+.main-about {
+height: 1000px;
+width: 100%;
 }
 
-.form, .retreat {
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-flow: column wrap;
+.mission {
+width: 100%;
+height: 400px;
 }
 
-.retreat {
-  height: 130px;
+.map {
+height: 350px;
+width: 100%;
 }
 
-.form {
-  height: 200px;
+.big-map, .big-map p {
+margin: 0;
+height: inherit;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
 }
 
-.features {
-  border: 1px solid black;
-  width: 100%;
-  height: 1451px;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+.information {
+width: 100%;
+height: 240px;
 }
 
-.features .content-wrapper {
-  height: inherit;
-  margin: 0;
-  width: 90%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-flow: row wrap;
+.information h3 {
+padding-top: 20px;
+margin: 0;
+width: 100%;
+height: 25px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-flow: row wrap;
 }
 
-.features h2 {
-  padding-top: 60px;
-  width: 100%;
-  height: 125px;
-  margin: 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-flow: row wrap;
+.information-hub {
+margin-top: 15px;
+height: inherit;
+width: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-flow: column wrap;
 }
 
-.features-items {
-  height: 1265px;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-flow: row wrap;
+.gen-info {
+margin: 0;
+height: 87px;
+width: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-flow: row wrap;
 }
 
-.fontawesome-icon, .features-item-description {
-  margin: 0;
-  width: 45%;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+.information h5, .information p {
+margin: 0;
+width: 100%;
+}
+
+.footer-about {
+  height: 250px;
 }
 
 
-.features article {
-  margin: 0;
-  width: 100%;
-  height: ;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
-}
 
-.reviews {
-  border: 1px solid purple;
-  height: 600px;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
 
-.reviews h2, .reviews h3, .reviews p {
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.reviews article {
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.lacrue {
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-/* ---------------- Footer --------------- */
-
-footer {
-  border: 1px solid orange;
-  height: 315px;
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.phone, .email {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.footer-content {
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
-}
-
-.contact, .social, .social-icons {
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
-}
-
-.social-icons {
-  margin: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.copyright, .copyright p {
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
 
 
 

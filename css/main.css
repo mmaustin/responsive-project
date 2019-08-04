@@ -133,7 +133,7 @@ textarea {
      width: 100%;
    }
 
-   .picture, .picture .class {
+   .picture {
      width: 100%;
      display: flex;
      justify-content: center;
@@ -460,7 +460,7 @@ textarea {
 
 
 /*------------About CSS--------------*/
-.body-about {
+/*.body-about {
   color: white;
   background-color: #527158;
   display: flex;
@@ -597,11 +597,11 @@ width: 100%;
 
 .footer-about {
   height: 250px;
-}
+}*/
 
 /*-----------FAQ CSS-----------*/
 
-.body-faq {
+/*.body-faq {
   color: white;
   background-color: #527158;
   display: flex;
@@ -737,7 +737,7 @@ flex-flow: row wrap;
   align-items: center;
   flex-flow: row wrap;
   height: 250px;
-}
+}*/
 
 
 /* ==========================================================================
@@ -829,16 +829,53 @@ flex-flow: row wrap;
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+
+/* Something crazy happens when the .picture element
+is decreased.  I have know idea why that is???*/
+
+  .picture {
+    width: 100%;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  .retreat, .form {
+    width: 48%;
+  }
+
+  .features-items {
+    flex-flow: row wrap;
+  }
+
+  .features article {
+    width: 48%;
+    flex-flow: column wrap;
+  }
+
+  .team-pic, .lacrue {
+    border: 1px solid black;
+    margin: 0;
+    height: 200px;
+    width: 48%;
+  }
+
+  .reviews article {
+    justify-content: space-between;
+  }
+
+  .footer-content {
+    flex-flow: row wrap;
+  }
+
+  .contact, .social {
+    width: 48%;
+  }
+
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
 
 /* ==========================================================================
    Print styles.

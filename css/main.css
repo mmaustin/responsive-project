@@ -411,7 +411,7 @@ textarea {
 
    footer {
      background-color: black;
-     height: 175px;
+     height: 250px;
      width: 100%;
      margin: 0;
      display: flex;
@@ -446,6 +446,14 @@ textarea {
      flex-flow: column wrap;
    }
 
+   .contact, .social {
+     height: 125px;
+   }
+
+   .contact p {
+     margin: 0;
+   }
+
    .social-icons {
      margin: 0;
      width: 100%;
@@ -468,7 +476,8 @@ textarea {
 
 
 /*------------About CSS--------------*/
-/*.body-about {
+
+.body-about {
   color: white;
   background-color: #527158;
   display: flex;
@@ -605,11 +614,11 @@ width: 100%;
 
 .footer-about {
   height: 250px;
-}*/
+}
 
 /*-----------FAQ CSS-----------*/
 
-/*.body-faq {
+.body-faq {
   color: white;
   background-color: #527158;
   display: flex;
@@ -689,63 +698,6 @@ align-items: flex-start;
 flex-flow: row wrap;
 }
 
-.footer-faq .footer-content {
-  height: inherit;
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-flow: column wrap;
-}
-
-.footer-faq h4, .footer-faq p {
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.footer-faq p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  margin-top: 0px;
-}
-
-.footer-faq .contact, .footer-faq .social {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-flow: column wrap;
-  margin-top: 20px;
-  height: 100px;
-}
-
-.footer-content-wrapper {
-  height: inherit;
-  margin: 0;
-  width: 90%;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-flow: row wrap;
-}
-
-.footer-faq {
-  background-color: black;
-  width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  height: 250px;
-}*/
 
 
 /* ==========================================================================
@@ -839,8 +791,7 @@ flex-flow: row wrap;
 
 @media only screen and (min-width: 768px) {
 
-/* Something crazy happens when the .picture element
-is decreased.  I have know idea why that is???*/
+/*--------Homepage-----------*/
 
   header .content-wrapper {
     width: 90%;
@@ -899,13 +850,51 @@ is decreased.  I have know idea why that is???*/
     width: 48%;
   }
 
+/*---------FAQ----------*/
+
+.faq-questions {
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
+}
+
+.questions {
+  width: 50%;
+}
+
+/*-------About--------*/
+
+.motivation {
+  width: 50%;
+}
+
+.information-hub {
+  flex-flow: row wrap;
+}
+
+.gen-info {
+  width: 50%;
+}
+
 }
 
 @media only screen and (min-width: 1200px) {
 
+/*--------Homepage--------*/
+
 .features article {
   width: 32%;
 }
+
+/*-------FAQ---------*/
+
+/* The widths of the header and footer wrappers
+will need to be adjusted in the final version*/
+
+/*------About-------*/
+
+/* The widths of the header and footer wrappers
+will need to be adjusted in the final version*/
 
 }
 

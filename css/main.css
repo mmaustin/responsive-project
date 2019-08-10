@@ -98,14 +98,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   body {
+/* General Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+     font-size: 1em;
+     font-family: 'open sans', sans-serif;
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
    }
 
-   .content-wrapper {
+.content-wrapper {
      height: inherit;
      width: 90%;
      margin: 0;
@@ -114,6 +122,60 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
    }
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'poppins', sans-serif;
+  font-size: 2.25em;
+  line-height: auto;
+}
+
+h3, h4 {
+  line-height: auto;
+  font-family: 'poppins', sans-serif;
+}
+
+h3 {
+  font-size: 1.875em;
+}
+
+h4 {
+  font-size: 1.125em;
+}
+
+p {
+  font-size: .875em;
+  line-height: 18px;
+}
+
+footer p {
+  line-height: auto;
+}
+
+.features-item-description, footer p {
+  text-align: center;
+}
+
+img {
+
+}
+
+address {
+
+}
+
+header, footer {
+  background-color: #202322;
+}
+
+footer, aside, .reviews {
+  color: #e2e3ed;
+}
+
 
    /* ------------------ Header ------------------*/
 
@@ -206,7 +268,7 @@ textarea {
      flex-flow: row wrap;
    }
 
-   .hero-area h1 {
+   .hero-area h2 {
      /*height: 200px;*/
      margin-top: 50px;
      width: 100%;
@@ -217,6 +279,7 @@ textarea {
    }
 
    aside {
+     background-color: #527158;
      /*height: 330px;*/
      margin: 0;
      width: 100%;
@@ -244,7 +307,7 @@ textarea {
      flex-flow: row wrap;
    }
 
-   aside h3, aside p, input {
+   aside h4, aside p, input {
      margin: 0;
      width: 100%;
      display: flex;
@@ -253,7 +316,7 @@ textarea {
      flex-flow: row wrap;
    }
 
-   .retreat h3 {
+   .retreat h4 {
      padding-top: 35px;
    }
 
@@ -261,16 +324,16 @@ textarea {
      padding-top: 20px;
    }
 
-   .form h3 {
+   .form h4 {
      padding: 40px 0 0;
    }
 
-   .form input {
+   /*.form input {
      margin-top: 15px;
      height: 35px;
-   }
+   }*/
 
-   .form, .retreat {
+   .retreat {
      margin: 0;
      width: 100%;
      display: flex;
@@ -279,12 +342,36 @@ textarea {
      flex-flow: column wrap;
    }
 
-   .retreat {
-     height: 130px;
+   .form {
+     margin: 0;
+     width: 100%;
    }
 
-   .form {
-     height: 200px;
+input {
+  justify-content: center;
+  height: 55px;
+}
+
+   input[type=text] {
+     text-indent: 10px;
+     box-sizing: border-box;
+     width: 100%;
+     color: #2a423a;
+     font-style: italic;
+   }
+
+   input[type=button] {
+     width: 100%;
+     padding: 20px 0;
+     margin-top: 20px;
+     background-color: #2a423a;
+     font-family: 'Poppins', Helvetica, Arial, sans-serif;
+     font-weight: 500;
+     font-size: 1.125em;
+     color: #e2e3ed;
+     border: none;
+     text-align: center;
+     text-transform: uppercase;
    }
 
    .features {
@@ -307,7 +394,7 @@ textarea {
      flex-flow: column wrap;
    }
 
-   .features h2 {
+   .features h3 {
      padding-top: 60px;
      width: 100%;
      height: 125px;
@@ -350,6 +437,7 @@ textarea {
    }
 
    .reviews {
+     background-color: #2a423a;
     /* height: 598px;*/
      margin: 0;
      width: 100%;
@@ -369,12 +457,12 @@ textarea {
      flex-flow: row wrap;
    }
 
-   .reviews h2 {
+   .reviews h3 {
      padding-top: 50px;
      height: 50px;
    }
 
-   .reviews h2, .reviews h3, .reviews p, .team-pic {
+   .reviews h3, .reviews h4, .reviews p, .team-pic {
      width: 100%;
      margin: 0;
      display: flex;
@@ -397,7 +485,7 @@ textarea {
    }
 
    .lacrue {
-     margin-top: 20px;
+     margin-top: 40px;
      width: 100%;
      display: flex;
      justify-content: center;
@@ -475,9 +563,17 @@ textarea {
 
 /*------------About CSS--------------*/
 
-.body-about {
-  color: white;
+.main-about {
   background-color: #527158;
+  color: #e2e3ed
+}
+
+.information {
+  background-color: #2a423a;
+  color: #e2e3ed
+}
+
+.body-about {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -533,7 +629,7 @@ align-items: flex-start;
 flex-flow: row wrap;
 }
 
-.mission h2 {
+.mission h3 {
 padding-top: 50px;
 margin: 0;
 width: 100%;
@@ -571,14 +667,12 @@ flex-flow: row wrap;
 
 .information {
 width: 100%;
-height: 240px;
+flex-flow: column wrap;
 }
 
 .information h3 {
-padding-top: 20px;
 margin: 0;
 width: 100%;
-height: 25px;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
@@ -586,8 +680,7 @@ flex-flow: row wrap;
 }
 
 .information-hub {
-margin-top: 15px;
-height: inherit;
+margin: 0;
 width: 100%;
 display: flex;
 justify-content: flex-start;
@@ -595,30 +688,38 @@ align-items: flex-start;
 flex-flow: column wrap;
 }
 
+.information .content-wrapper {
+  margin: 0;
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
+
 .gen-info {
-margin: 0;
-height: 87px;
+margin-top: 20px;
 width: 100%;
 display: flex;
 justify-content: flex-start;
-align-items: center;
+align-items: flex-start;
 flex-flow: row wrap;
 }
 
-.information h5, .information p {
+.information h4, .information p {
 margin: 0;
 width: 100%;
 }
 
 .footer-about {
-  height: 250px;
+
 }
 
 /*-----------FAQ CSS-----------*/
 
 .body-faq {
-  color: white;
   background-color: #527158;
+  color: #e2e3ed;
   display: flex;
   justify-content: center;
   align-items: center;

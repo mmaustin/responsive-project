@@ -162,11 +162,14 @@ footer p {
   text-align: center;
 }
 
-header img {
-  background: url('../img/Logo.png') center no-repeat;
-  background-size: cover;
+img {
+  width: 75%;
+  height: 50px;
+  background-image: url('../img/Logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
 }
@@ -200,14 +203,17 @@ footer, aside, .reviews, .features, .hero-area {
    }
 
    .picture-wrapper {
+     margin: 0;
+     height: 60px;
      width: 60%;
      display: flex;
-     justify-content: center;
+     justify-content: flex-start;
      align-items: center;
      flex-flow: row wrap;
    }
 
    .picture {
+     height: inherit;
      width: 100%;
      display: flex;
      justify-content: center;
@@ -224,13 +230,13 @@ footer, aside, .reviews, .features, .hero-area {
    }
 
    .header-divider {
-     margin-top: 30px;
+     margin-top: 0px;
      background-color: gray;
      height: 1px;
    }
 
    nav ul {
-     width: 60%;
+     width: 100%;
      display: flex;
      justify-content: space-around;
      align-items: center;
@@ -921,7 +927,12 @@ flex-flow: row wrap;
     width: 48%;
   }
 
-  .picture {
+  img {
+    width: 65%;
+    justify-content: flex-start;
+  }
+
+  .picture, .picture-wrapper {
     justify-content: flex-start;
   }
 

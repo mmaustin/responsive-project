@@ -106,7 +106,7 @@ html {
 }
 
 body {
-     height: 3000px;
+     height: 3330px;
      font-size: 1em;
      font-family: 'open sans', sans-serif;
      display: flex;
@@ -178,7 +178,7 @@ address {
 
 }
 
-header, footer {
+header, footer, .copyright {
   background-color: #202322;
 }
 
@@ -251,7 +251,7 @@ footer, aside, .reviews, .features, .hero-area {
    /* ---------------- Main --------------- */
 
    main {
-     height: 2500px;
+     height: 2895px;
      margin: 0;
      width: 100%;
      display: flex;
@@ -262,7 +262,7 @@ footer, aside, .reviews, .features, .hero-area {
 
    .hero-area {
      margin: 0;
-     height: 700px;
+     height: 500px;
      background-image: url('../img/jake-unsplash.jpg');
      background-size: cover;
      background-position: center;
@@ -296,7 +296,7 @@ footer, aside, .reviews, .features, .hero-area {
 
    aside {
      background-color: #527158;
-     /*height: 330px;*/
+     height: 330px;
      margin: 0;
      width: 100%;
      display: flex;
@@ -395,7 +395,7 @@ input {
      background-size: cover;
      background-position: center;
      width: 100%;
-     height: 1000px;
+     height: 1455px;
      margin: 0;
      display: flex;
      justify-content: center;
@@ -456,7 +456,7 @@ input {
    }
 
    .reviews {
-     height: 650px;
+     height: 610px;
      background-color: #2a423a;
      margin: 0;
      width: 100%;
@@ -491,6 +491,7 @@ input {
    }
 
    .team-pic {
+     margin-top: 25px;
      height: 275px;
      width: 100%;
      background-image: url('../img/omar-unsplash.jpg');
@@ -523,8 +524,7 @@ input {
    /* ---------------- Footer --------------- */
 
    footer {
-     /*background-color: black;
-     height: 250px;*/
+     height: 315px;
      width: 100%;
      margin: 0;
      display: flex;
@@ -577,13 +577,16 @@ input {
    }
 
    .copyright, .copyright p {
-     background-color: ;
      width: 100%;
      margin: 0;
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+   }
+
+   .copyright {
+     height: px;
    }
 
 

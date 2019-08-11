@@ -98,6 +98,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
 /* General Styles */
 
 html {
@@ -105,6 +106,7 @@ html {
 }
 
 body {
+     height: 3000px;
      font-size: 1em;
      font-family: 'open sans', sans-serif;
      display: flex;
@@ -177,7 +179,7 @@ header, footer {
   background-color: #202322;
 }
 
-footer, aside, .reviews, .features {
+footer, aside, .reviews, .features, .hero-area {
   color: #e2e3ed;
 }
 
@@ -185,8 +187,7 @@ footer, aside, .reviews, .features {
    /* ------------------ Header ------------------*/
 
    header {
-     /*background-color: black;
-     height: 120px;*/
+     height: 120px;
      width: 100%;
      display: flex;
      justify-content: center;
@@ -244,7 +245,7 @@ footer, aside, .reviews, .features {
    /* ---------------- Main --------------- */
 
    main {
-     /*height: 2890px;*/
+     height: 2500px;
      margin: 0;
      width: 100%;
      display: flex;
@@ -254,8 +255,11 @@ footer, aside, .reviews, .features {
    }
 
    .hero-area {
+     margin: 0;
+     height: 700px;
      background-image: url('../img/jake-unsplash.jpg');
-     /*height: 501px;*/
+     background-size: cover;
+     background-position: center;
      margin: 0;
      width: 100%;
      display: flex;
@@ -382,8 +386,10 @@ input {
 
    .features {
      background-image: url('../img/rawpixel-unsplash1.jpg');
+     background-size: cover;
+     background-position: center;
      width: 100%;
-     /*height: 1455px;*/
+     height: 1000px;
      margin: 0;
      display: flex;
      justify-content: center;
@@ -444,8 +450,8 @@ input {
    }
 
    .reviews {
+     height: 650px;
      background-color: #2a423a;
-    /* height: 598px;*/
      margin: 0;
      width: 100%;
      display: flex;
@@ -479,7 +485,15 @@ input {
    }
 
    .team-pic {
+     height: 275px;
+     width: 100%;
      background-image: url('../img/omar-unsplash.jpg');
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap
    }
 
    .reviews article {
@@ -938,7 +952,6 @@ flex-flow: row wrap;
   }
 
   .team-pic, .lacrue {
-    border: 1px solid black;
     margin: 0;
     height: 200px;
     width: 48%;

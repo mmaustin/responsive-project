@@ -162,14 +162,15 @@ footer p {
   text-align: center;
 }
 
-img {
-  width: 75%;
+figure {
+  margin: 0;
+  width: 100%;
   height: 50px;
   background-image: url('../img/Logo.png');
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
@@ -205,7 +206,7 @@ footer, aside, .reviews, .features, .hero-area {
    .picture-wrapper {
      margin: 0;
      height: 60px;
-     width: 60%;
+     width: 100%;
      display: flex;
      justify-content: flex-start;
      align-items: center;
@@ -242,6 +243,7 @@ footer, aside, .reviews, .features, .hero-area {
      align-items: center;
      flex-flow: row wrap;
      list-style: none;
+     text-align: center;
    }
 
    nav ul li a {
@@ -927,12 +929,13 @@ flex-flow: row wrap;
   }
 
   .picture-wrapper, nav {
-    width: 48%;
+    width: 50%;
   }
 
-  img {
-    width: 65%;
-    justify-content: flex-start;
+  figure {
+    background-position: left;
+    width: 100%;
+    justify-content: center;
   }
 
   .picture, .picture-wrapper {

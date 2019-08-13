@@ -595,6 +595,7 @@ input {
 
 /*------------About CSS--------------*/
 
+
 .main-about {
   background-color: #527158;
   color: #e2e3ed
@@ -606,6 +607,7 @@ input {
 }
 
 .body-about {
+  height: 1550px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -749,7 +751,9 @@ width: 100%;
 
 /*-----------FAQ CSS-----------*/
 
+
 .body-faq {
+  height: 1000px;
   background-color: #527158;
   color: #e2e3ed;
   display: flex;

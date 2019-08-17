@@ -597,6 +597,7 @@ input {
 
 
 .main-about {
+  height: 1231px;
   background-color: #527158;
   color: #e2e3ed
 }
@@ -607,14 +608,16 @@ input {
 }
 
 .body-about {
-  height: 1450px;
+  margin: 0;
+  height: 1665px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.main-about, .mission, .information, .mission-info {
+.main-about, .mission, .information, .mission-info,
+.map-section {
 width: 100%;
 margin: 0;
 display: flex;
@@ -623,8 +626,16 @@ align-items: center;
 flex-flow: row wrap;
 }
 
+.main-about {
+  flex-flow: column wrap;
+}
+
 .mission {
-  height: 300px;
+  height: 470px;
+}
+
+.map-section {
+  height: 453px;
 }
 
 
@@ -639,9 +650,10 @@ flex-flow: row wrap;
 }
 
 .map-container {
+  border: 1px solid red;
   width: 100%;
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 40%;
   height: 0;
   overflow: hidden;
 }
@@ -685,17 +697,13 @@ align-items: flex-start;
 flex-flow: row wrap;
 }
 
-.main-about {
-height: 1200px;
-width: 100%;
-}
 
 .mission {
 width: 100%;
 height: 400px;
 }
 
-.map {
+/*.map {
 height: 350px;
 width: 100%;
 }
@@ -708,9 +716,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-flow: row wrap;
-}
+}*/
+
 
 .information {
+margin: 0;
+height: 376px;
 width: 100%;
 flex-flow: column wrap;
 }
@@ -939,6 +950,34 @@ flex-flow: row wrap;
 
 /*--------Homepage-----------*/
 
+  body {
+    height: 3310px;
+  }
+
+  .body-about {
+    height: 1635px;
+  }
+
+  .main-about {
+    height: 1220px;
+  }
+
+  .mission {
+    height: 450px;
+  }
+
+  .map-section {
+    height: 350px;
+  }
+
+  .information {
+    height: 420px;
+  }
+
+  header {
+    height: 100px;
+  }
+
   header .content-wrapper {
     width: 90%;
   }
@@ -992,6 +1031,7 @@ flex-flow: row wrap;
   .reviews article {
     justify-content: space-between;
   }
+
 
   .footer-content {
     flex-flow: row wrap;

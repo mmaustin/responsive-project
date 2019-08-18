@@ -427,7 +427,7 @@ input {
    }
 
    .features-items {
-     /*height: 1266px;*/
+     height: 1270px;
      margin: 0;
      width: 100%;
      display: flex;
@@ -436,10 +436,15 @@ input {
      flex-flow: column wrap;
    }
 
+   .features i {
+     font-size: 3.75em;
+     margin-bottom: 40px;
+   }
+
    .fontawesome-icon, .features-item-description {
      margin: 0;
      width: 45%;
-     /*height: 70px;*/
+     height: 80px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -450,7 +455,7 @@ input {
    .features article {
      margin: 0;
      width: 100%;
-     height: auto;
+     height: 210px;
      display: flex;
      justify-content: flex-start;
      align-items: center;
@@ -552,7 +557,7 @@ input {
      flex-flow: column wrap;
    }
 
-   .contact, .social, .social-icons {
+   .contact, .social {
      margin: 0;
      width: 100%;
      display: flex;
@@ -565,18 +570,35 @@ input {
      height: 125px;
    }
 
+   .social {
+     flex-flow: column nowrap;
+   }
+
    .contact p {
      margin: 0;
    }
 
    .social-icons {
      margin: 0;
-     width: 100%;
+     width: 30%;
      display: flex;
-     justify-content: center;
+     justify-content: space-around;
      align-items: center;
      flex-flow: row wrap;
    }
+
+   .social-icons i {
+     padding-top: 5px;
+     font-size: 1.125em;
+   }
+
+   .social-icons p {
+     border-radius: 40px;
+     width: 25px;
+     height: 25px;
+     background-color: #527158;
+   }
+
 
    .copyright, .copyright p {
      width: 100%;
@@ -1014,11 +1036,12 @@ aside {
   }
 
   .features-items {
+    height: 675px;
     flex-flow: row wrap;
   }
 
   .features article {
-    width: 48%;
+    width: 50%;
     flex-flow: column wrap;
   }
 
@@ -1122,13 +1145,18 @@ aside {
   height: 810px;
 }
 
+.features-items {
+  height: 625px;
+}
+
 .reviews {
   height: 630px;
 }
 
 .features article {
-  width: 32%;
+  width: 33%;
 }
+
 
 /*-------About---------*/
 

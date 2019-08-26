@@ -865,26 +865,26 @@ flex-flow: column wrap;
 width: 100%;
 height: 50px;
 margin: 0;
-padding-top: 30px;
+padding-top: 40px;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
-flex-flow: row wrap;
+flex-flow: column wrap;
 }
 
 .faq-questions {
 width: 100%;
-height: 400px;
-margin: 0;
+height: 670px;
+margin-top: 30px;
 display: flex;
-justify-content: space-around;
+justify-content: flex-start;
 align-items: flex-start;
 flex-flow: column wrap;
 }
 
 .questions {
 width: 100%;
-height: 90px;
+height: 167px;
 margin: 0;
 display: flex;
 justify-content: flex-start;
@@ -900,6 +900,10 @@ display: flex;
 justify-content: flex-start;
 align-items: flex-start;
 flex-flow: row wrap;
+}
+
+.questions p {
+  margin-top: 10px;
 }
 
 
@@ -1126,13 +1130,19 @@ aside {
 }
 
 .faq-questions {
-justify-content: center;
-align-items: center;
+height: 375px;
+justify-content: space-between;
+align-items: flex-start;
 flex-flow: row wrap;
 }
 
 .questions {
-  width: 50%;
+  height: 182px;
+  width: 45%;
+}
+
+.questions p {
+  margin-top: 15px;
 }
 
 /*-------About--------*/
@@ -1269,6 +1279,10 @@ aside {
 
 .body-faq {
   height: 965px;
+}
+
+.banner {
+  padding-top: 75px;
 }
 
 .main-faq, .faq {

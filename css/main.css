@@ -486,11 +486,6 @@ input {
      flex-flow: row wrap;
    }
 
-   .reviews h3 {
-     height: 80px;
-     padding-top: 0px;
-   }
-
    .reviews h3, .reviews h4, .reviews p {
      width: 100%;
      margin: 0;
@@ -500,13 +495,18 @@ input {
      flex-flow: row wrap;
    }
 
+   .reviews h3 {
+     height: 80px;
+     margin-top: 40px;
+   }
+
    .reviews h4, .reviews p {
-     padding-top: 10px;
+     padding-top: 15px;
    }
 
    .team-pic {
      margin-top: 0px;
-     height: 275px;
+     height: 280px;
      width: 100%;
      background-image: url('../img/omar-unsplash.jpg');
      background-size: cover;
@@ -661,9 +661,9 @@ flex-flow: row wrap;
   flex-flow: column wrap;
 }
 
-.mission {
+/*.mission {
   height: 470px;
-}
+}*/
 
 .map-section {
   overflow: hidden;
@@ -679,6 +679,10 @@ display: flex;
 justify-content: center;
 align-items: flex-start;
 flex-flow: row wrap;
+}
+
+.mission {
+  flex-flow: column wrap;
 }
 
 .map-container {
@@ -707,21 +711,26 @@ align-items: flex-start;
 flex-flow: row wrap;
 }
 
+.motivation {
+  height: 115px;
+  padding-top: px;
+}
+
 .mission-info {
 margin: 0;
 width: 100%;
-height: 180px;
+height: 235px;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
-flex-flow: row wrap;
+flex-flow: column wrap;
 }
 
-.mission h3 {
-padding-top: 50px;
+.mission-statement {
+padding-top: 40px;
 margin: 0;
 width: 100%;
-height: 70px;
+height: 120px;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
@@ -757,7 +766,9 @@ width: 100%;
 flex-flow: column wrap;
 }
 
-.information h3 {
+.contact-us {
+padding-top: 40px;
+height: 75px;
 margin: 0;
 width: 100%;
 display: flex;
@@ -767,6 +778,7 @@ flex-flow: row wrap;
 }
 
 .information-hub {
+height: 260px;
 margin: 0;
 width: 100%;
 display: flex;
@@ -796,6 +808,10 @@ flex-flow: row wrap;
 .information h4, .information p {
 margin: 0;
 width: 100%;
+}
+
+.information p {
+  padding-top: 10px;
 }
 
 .footer-about {
@@ -1040,9 +1056,24 @@ aside {
     display: none;
   }
 
-  .retreat, .form {
-    width: 48%;
+  .retreat h4 {
+    margin-top: 50px;
   }
+
+  .form h4 {
+    padding-top: 50px;
+  }
+
+  .form-info {
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  .retreat, .form {
+    height: 215px;
+    width: 45%;
+  }
+
 
   .features-items {
     height: 675px;
@@ -1056,8 +1087,12 @@ aside {
 
   .team-pic, .lacrue {
     margin: 0;
-    height: 200px;
-    width: 48%;
+    height: 250px;
+    width: 49%;
+  }
+
+  .reviews h3 {
+    padding-top: 30px;
   }
 
   .reviews h4 {
@@ -1071,7 +1106,6 @@ aside {
   .reviews article {
     justify-content: space-between;
   }
-
 
   .footer-content {
     flex-flow: row wrap;
@@ -1113,7 +1147,16 @@ flex-flow: row wrap;
 }
 
 .mission {
+  flex-flow: column wrap;
   height: 450px;
+}
+
+.mission-info {
+  height: 285px;
+}
+
+.mission-statement {
+  padding-top: 90px;
 }
 
 .map-section {
@@ -1124,16 +1167,29 @@ flex-flow: row wrap;
   height: 420px;
 }
 
+.mission-info {
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
 .motivation {
-  width: 50%;
+  height: 145px;
+  width: 45%;
+}
+
+.contact-us {
+  padding-top: 110px;
 }
 
 .information-hub {
+  height: 200px;
+  justify-content: space-between;
   flex-flow: row wrap;
 }
 
 .gen-info {
-  width: 50%;
+  justify-content: flex-end;
+  width: 40%;
 }
 
 }
@@ -1168,6 +1224,10 @@ aside {
 
 .reviews {
   height: 630px;
+}
+
+.reviews h3 {
+  padding-top: 100px;
 }
 
 .features article {

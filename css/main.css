@@ -1244,6 +1244,12 @@ aside {
   width: 33%;
 }
 
+.team-pic, .lacrue {
+  margin: 0;
+  height: 300px;
+  width: 49%;
+}
+
 
 /*-------About---------*/
 

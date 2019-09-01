@@ -106,7 +106,7 @@ html {
 }
 
 body {
-     height: 3330px;
+     height: 3600px;
      font-size: 1em;
      font-family: 'open sans', sans-serif;
      display: flex;
@@ -253,7 +253,7 @@ footer, aside, .reviews, .features, .hero-area {
    /* ---------------- Main --------------- */
 
    main {
-     height: 2895px;
+     height: 3165px;
      margin: 0;
      width: 100%;
      display: flex;
@@ -358,7 +358,7 @@ footer, aside, .reviews, .features, .hero-area {
      display: flex;
      justify-content: flex-start;
      align-items: flex-start;
-     flex-flow: column wrap;
+     flex-flow: column nowrap;
    }
 
    .form {
@@ -399,7 +399,7 @@ input {
      background-size: cover;
      background-position: center;
      width: 100%;
-     height: 1455px;
+     height: 1645px;
      margin: 0;
      display: flex;
      justify-content: center;
@@ -420,7 +420,7 @@ input {
    .features h3 {
      padding-top: 55px;
      width: 100%;
-     height: 125px;
+     height: auto;
      margin: 0;
      display: flex;
      justify-content: flex-start;
@@ -430,7 +430,7 @@ input {
 
    .features-items {
      height: 1270px;
-     margin: 0;
+     margin-top: 60px;
      width: 100%;
      display: flex;
      justify-content: flex-start;
@@ -466,7 +466,7 @@ input {
    }
 
    .reviews {
-     height: 610px;
+     height: 690px;
      background-color: #2a423a;
      margin: 0;
      width: 100%;
@@ -528,13 +528,13 @@ input {
    }
 
    .lacrue {
-     height: 190px;
+     height: 210px;
      margin-top: 0px;
      width: 100%;
      display: flex;
      justify-content: flex-start;
      align-items: flex-start;
-     flex-flow: column wrap;
+     flex-flow: column nowrap;
    }
 
    /* ---------------- Footer --------------- */

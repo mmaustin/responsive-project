@@ -997,6 +997,48 @@ flex-flow: row wrap;
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (min-width: 413px) {
+
+  /*------Homepage------*/
+
+  body {
+    height: 3515px;
+  }
+
+  main {
+    height: 3080px;
+  }
+
+  .features {
+    height: 1560px;
+  }
+
+}
+
+@media only screen and (min-width: 582px) {
+
+  body {
+    height: 3330px;
+  }
+
+  main {
+    height: 2895px;
+  }
+
+  .features {
+    height: 1455px;
+  }
+
+  .features-items {
+    margin-top: 40px;
+  }
+
+  .reviews {
+    height: 610px;
+  }
+
+}
+
 @media only screen and (min-width: 768px) {
 
 /*--------Homepage-----------*/
@@ -1080,6 +1122,7 @@ aside {
 
 
   .features-items {
+    margin-top: 30px;
     height: 675px;
     flex-flow: row wrap;
   }
@@ -1229,6 +1272,7 @@ aside {
 }
 
 .features-items {
+  margin-top: 60px;
   height: 625px;
 }
 

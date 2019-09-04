@@ -628,7 +628,7 @@ input {
 
 
 .main-about {
-  height: 1231px;
+  height: 1511px;
   background-color: #527158;
   color: #e2e3ed
 }
@@ -640,7 +640,7 @@ input {
 
 .body-about {
   margin: 0;
-  height: 1665px;
+  height: 1925px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -704,7 +704,7 @@ flex-flow: row wrap;
 .motivation, .motivation p {
 margin: 0;
 width: 100%;
-height: 90px;
+height: 205px;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
@@ -712,14 +712,14 @@ flex-flow: row wrap;
 }
 
 .motivation {
-  height: 115px;
+  height: px;
   padding-top: px;
 }
 
 .mission-info {
-margin: 0;
+margin-top: 30px;
 width: 100%;
-height: 235px;
+height: 410px;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
@@ -727,10 +727,10 @@ flex-flow: column wrap;
 }
 
 .mission-statement {
-padding-top: 40px;
+padding-top: 50px;
 margin: 0;
 width: 100%;
-height: 120px;
+height: 200px;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
@@ -740,35 +740,19 @@ flex-flow: row wrap;
 
 .mission {
 width: 100%;
-height: 400px;
+height: 650px;
 }
-
-/*.map {
-height: 350px;
-width: 100%;
-}
-
-.big-map, .big-map p {
-margin: 0;
-height: inherit;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-flow: row wrap;
-}*/
-
 
 .information {
 margin: 0;
-height: 376px;
+height: 506px;
 width: 100%;
 flex-flow: column wrap;
 }
 
 .contact-us {
 padding-top: 40px;
-height: 75px;
+height: 120px;
 margin: 0;
 width: 100%;
 display: flex;
@@ -778,7 +762,7 @@ flex-flow: row wrap;
 }
 
 .information-hub {
-height: 260px;
+height: 240px;
 margin: 0;
 width: 100%;
 display: flex;
@@ -1015,7 +999,39 @@ flex-flow: row wrap;
 
 }
 
+/*-----About------*/
+
+.body-about {
+  height: 1785px;
+}
+
+.main-about {
+  height: 1371px;
+}
+
+.mission {
+  height: 550px;
+}
+
+.mission-statement {
+  height: 160px;
+}
+
+.motivation, .motivation p {
+  height: 155px;
+}
+
+.contact-us {
+  height: 80px;
+}
+
+.information {
+  height: 366px;
+}
+
 @media only screen and (min-width: 582px) {
+
+/*-----Homepage-----*/
 
   body {
     height: 3330px;
@@ -1036,6 +1052,52 @@ flex-flow: row wrap;
   .reviews {
     height: 610px;
   }
+
+/*-----About------*/
+
+.body-about {
+  height: 1655px;
+}
+
+.main-about {
+  height: 1221px;
+}
+
+.mission {
+  height: 400px;
+}
+
+.mission-statement {
+  height: 80px;
+  padding-top: 40;
+}
+
+.mission-info {
+  height: 235px;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.motivation, .motivation p {
+  height: 90px;
+}
+
+.motivation p {
+  margin-top: 0px;
+}
+
+.information {
+  height: 366px;
+}
+
+.contact-us {
+  height: 75px;
+  margin-top: 0px;
+}
+
+.information-hub {
+  height: 250px;
+}
 
 }
 
@@ -1192,24 +1254,20 @@ flex-flow: row wrap;
 
 
 .body-about {
-  height: 1635px;
+  height: 1375px;
 }
 
 .main-about {
-  height: 1220px;
+  height: 960px;
 }
 
 .mission {
-  flex-flow: column wrap;
-  height: 450px;
-}
-
-.mission-info {
-  height: 285px;
+  flex-flow: row wrap;
+  height: 330px;
 }
 
 .mission-statement {
-  padding-top: 90px;
+  padding-top: 40px;
 }
 
 .map-section {
@@ -1217,10 +1275,11 @@ flex-flow: row wrap;
 }
 
 .information {
-  height: 420px;
+  height: 280px;
 }
 
 .mission-info {
+  height: 165px;
   justify-content: space-between;
   flex-flow: row wrap;
 }
@@ -1230,12 +1289,16 @@ flex-flow: row wrap;
   width: 45%;
 }
 
+.motivation p {
+  height: 145px;
+}
+
 .contact-us {
-  padding-top: 110px;
+  padding-top: 40px;
 }
 
 .information-hub {
-  height: 200px;
+  height: 130px;
   justify-content: space-between;
   flex-flow: row wrap;
 }
@@ -1298,15 +1361,19 @@ aside {
 /*-------About---------*/
 
 .body-about {
-  height: 1715px;
+  height: 1445px;
 }
 
 .main-about {
-  height: 1300px;
+  height: 1030px;
 }
 
 .mission {
-  height: 450px;
+  height: 290px;
+}
+
+.mission-statement {
+  padding-top: px;
 }
 
 .map-section {
@@ -1314,7 +1381,7 @@ aside {
 }
 
 .information {
-  height: 400px;
+  height: 290px;
 }
 
 .footer {

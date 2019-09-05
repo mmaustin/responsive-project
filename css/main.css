@@ -745,7 +745,7 @@ height: 650px;
 
 .information {
 margin: 0;
-height: 506px;
+height: 406px;
 width: 100%;
 flex-flow: column wrap;
 }
@@ -806,7 +806,7 @@ width: 100%;
 
 
 .body-faq {
-  height: 1225px;
+  height: 1375px;
   background-color: #527158;
   color: #e2e3ed;
   display: flex;
@@ -817,7 +817,7 @@ width: 100%;
 
 .main-faq {
 width: 100%;
-height: 790px;
+height: 940px;
 margin: 0;
 display: flex;
 justify-content: center;
@@ -827,7 +827,7 @@ flex-flow: row wrap;
 
 .faq {
 width: 100%;
-height: 790px;
+height: 940px;
 margin: 0;
 display: flex;
 justify-content: center;
@@ -847,7 +847,7 @@ flex-flow: column wrap;
 
 .banner {
 width: 100%;
-height: 50px;
+height: 90px;
 margin: 0;
 padding-top: 40px;
 display: flex;
@@ -858,8 +858,8 @@ flex-flow: column wrap;
 
 .faq-questions {
 width: 100%;
-height: 670px;
-margin-top: 30px;
+height: 770px;
+margin-top: 20px;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
@@ -868,8 +868,8 @@ flex-flow: column wrap;
 
 .questions {
 width: 100%;
-height: 167px;
-margin: 0;
+height: 180px;
+margin-top: 12px;
 display: flex;
 justify-content: flex-start;
 align-items: flex-start;
@@ -1029,6 +1029,27 @@ flex-flow: row wrap;
   height: 366px;
 }
 
+/*-----FAQ-----*/
+
+.body-faq {
+  height: 1275px;
+}
+
+.main-faq, .faq {
+  height: 840px;
+}
+
+
+.faq-questions {
+  height: 706px;
+  margin-top: 0px;
+}
+
+.questions {
+  height: 165px;
+  margin-top: 6px;
+}
+
 }
 
 @media only screen and (min-width: 582px) {
@@ -1099,6 +1120,31 @@ flex-flow: row wrap;
 
 .information-hub {
   height: 250px;
+}
+
+/*----FAQ----*/
+
+.body-faq {
+  height: 1045px;
+}
+
+.main-faq, .faq {
+  height: 610px;
+}
+
+.banner {
+  height: 50px;
+  padding-top: 40px;
+}
+
+.faq-questions {
+  height: 485px;
+  margin-top: 30px;
+}
+
+.questions {
+  height: 115px;
+  margin-top: 0px;
 }
 
 }

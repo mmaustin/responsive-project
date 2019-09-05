@@ -630,12 +630,12 @@ input {
 .main-about {
   height: 1511px;
   background-color: #527158;
-  color: #e2e3ed
+  color: #e2e3ed;
 }
 
 .information {
   background-color: #2a423a;
-  color: #e2e3ed
+  color: #e2e3ed;
 }
 
 .body-about {
@@ -997,7 +997,7 @@ flex-flow: row wrap;
     height: 1560px;
   }
 
-}
+
 
 /*-----About------*/
 
@@ -1027,6 +1027,8 @@ flex-flow: row wrap;
 
 .information {
   height: 366px;
+}
+
 }
 
 @media only screen and (min-width: 582px) {
